@@ -1,0 +1,16 @@
+/*
+    Estilização feita com auxilio de Inteligencia artificial
+    imagem 'Background.png' feita por João Cicero no Canva
+*/
+
+.parallax {
+background-image: url('/Background1.png'); 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.content {
+position: relative;
+}

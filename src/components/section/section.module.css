@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.textContainer .grow{
+    transition: transform 0.5s ease;
+}
+.textContainer:hover .grow {
+    transform: scale(1.05)  translateX(15px);
+}
+
+.imageContainer{
+    align-self: center;
+    width: fit-content;
+}
+
+.image{
+    max-height: 80vh;
+    max-width: 80vw;
+    transform: scale(1.15);
+    transition: transform 0.5s ease;
+}
+.image:hover{
+    transform: scale(1.2)  translateX(-15px);
+}
+
+@media(min-width: 772px){
+    .container{
+        flex-direction: row;
+        padding-left: 10% ;
+        padding-right: 10%;
+    }
+    .image{
+        max-height: 40vh;
+    }
+    .imageContainer{
+        align-items: start;
+        justify-content: center;
+    }
+}
