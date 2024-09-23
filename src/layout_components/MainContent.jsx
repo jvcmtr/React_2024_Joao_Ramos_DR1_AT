@@ -1,7 +1,7 @@
 import CardRow from "../components/cardRow/cardRow"
 import Section from "../components/section/Section"
 import EventList from "../components/eventList/EventList.jsx"
-import { section } from "../constants"
+import { section } from "../constants.js"
 
 export default function MainContent(props){
     return (

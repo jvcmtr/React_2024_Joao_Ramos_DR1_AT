@@ -44,6 +44,7 @@ const footer = {
     textAlign: 'center',
     backgroundColor: colors.blue2,
     color: colors.offWhite,
+    overflow: 'hidden'
 }
 
 const row = {

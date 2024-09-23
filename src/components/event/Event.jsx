@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { colors } from "../../constants"
+import { colors } from "../../constants.js"
 
 const Event = (props) =>{
     return (

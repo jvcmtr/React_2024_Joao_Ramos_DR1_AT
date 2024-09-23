@@ -1,6 +1,6 @@
 
 import module from './card.module.css';
-import { colors } from '../../constants';
+import { colors } from '../../constants.js';
 
 
 export default function Card(props){

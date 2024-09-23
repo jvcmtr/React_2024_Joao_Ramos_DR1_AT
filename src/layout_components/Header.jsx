@@ -1,6 +1,6 @@
 
 import NavItem from "../components/navItem/NavItem"
-import { colors, sections } from "../constants"
+import { colors, sections } from "../constants.js"
 
 export default function Header(){
     return(

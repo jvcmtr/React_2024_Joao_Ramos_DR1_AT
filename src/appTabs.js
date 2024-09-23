@@ -1,5 +1,5 @@
 
-import { sections } from "./constants";
+import { sections } from "./constants.js";
 
 const navigate = (to) => {
   const element = document.getElementById(to);

@@ -1,4 +1,4 @@
-import { colors, sections } from "../constants"
+import { colors, sections } from "../constants.js"
 import NavItem from "../components/navItem/NavItem"
 
 export default function NavList(props){
